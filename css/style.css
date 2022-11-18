@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+html {
+    font-size: 18px;
+    font-family: 'Outfit', serif;
+    color: hsl(215, 51%, 70%);
+    margin: 0;
+    padding: 0;
+}
+
+
+.card {
+    width: 300px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 50px hsla(0, 0%, 0%, 0.5);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.priceTime {
+    display: flex;
+    justify-content: space-between;
+}
+
+.creator {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.creator img {
+    margin-right: 15px;
+}
+
+.creator p {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+#nft {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
+
+#avatar {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#price {
+    color: hsl(178, 100%, 50%);
+}
+
+h3 {
+    font-size: 0.82rem;
+    font-weight: 400;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+h3 img {
+    margin-right: 5px;
+}
+
+hr {
+    width: 300px;
+    border: 0;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.2rem;
+    color: white;
+    margin: 0;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.nftLink {
+    height: 300px;
+}
+
+#nft:hover {
+    opacity: 0.5;
+}
+
+.nftLink:hover {
+    background: hsl(178, 100%, 50%) url(../images/icon-view.svg) center no-repeat;
+    border-radius: 15px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: hsl(178, 100%, 50%);
+}
